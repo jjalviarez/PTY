@@ -19,7 +19,8 @@ a) remember the port number - 8080 (in this example). If you use some other port
 number make sure you mention it explicitly when you make a call to the server.
 b) the console statement is just a note to tell you the server is running
  */
+ 
 app.listen(8080, function () {
-  console.log('Example app listening on port 8080!');
+  console.log('Server running at http://0.0.0.0:8080/');
   //call this app from https://<workspace name>-<user name>.c9users.io
 });
